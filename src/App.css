@@ -20,6 +20,8 @@ button{
   font-weight: bold;
   background-color: black;
   color: white;
+  width: 150px;
+  height: 40px
 }
 
 #Qbox{
@@ -34,9 +36,9 @@ button{
 
 }
 #buttoner{
-  width: 300px;
+  width: 400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-self: center;
   margin-right: 75px;
   margin-left: 75px;

@@ -4,8 +4,8 @@ class Presentational extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            quote: "puto el que lee y se lamenta de haberlo leído",
-            author: "chupito el pame",
+            quote: "Apriete el botón para generar su frase",
+            author: "Admin",
             quoteA: [
               ["¿Si no puedes darme poesía, ¿no puedes al menos darme ciencia poética?”", "Ada Lovelance"] ,
               ["Podemos ver poco del futuro, pero lo suficiente como para darnos cuenta de que hay mucho por hacer", "Alan Turing"] ,
@@ -42,7 +42,6 @@ class Presentational extends React.Component {
               </i>
               <div id="buttoner">
                 <button id="newQ-Button" onClick={this.cambio}>New Quote</button>
-                <button id="share-Button">Share</button>
               </div>
             </div>
           </div>
