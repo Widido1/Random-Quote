@@ -45,7 +45,7 @@
         
         $("#newQ-Button").click(function(event) {
           event.preventDefault();
-          let color = allcolors[Math.floor(Math.random() * allcolors.length)]; console.log(color);
+          let color = allcolors[Math.floor(Math.random() * allcolors.length)];
           $("body").css("background-color", color[0]);
           $("button").css("background-color", color[0]);
           $("button").css("color", color[2]);
